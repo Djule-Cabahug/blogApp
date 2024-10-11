@@ -1,5 +1,5 @@
 const jwt = require("jsonwebtoken");
-const secret = "MovieCatalogSysyemAPI";
+const secret = "BlogAppAPI";
 
 module.exports.createAccessToken = (user) => {
 	const data = {
